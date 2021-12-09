@@ -54,7 +54,7 @@ class _MyAppState extends State<MyApp> {
 
   _startCall() async {
     try {
-      await PhoneCaller.callNumber("+390114477014", sim: 1);
+      await PhoneCaller.callNumber("+39011123456", sim: 1);
     } on PlatformException catch (error) {
       print("Errore $error");
     }
